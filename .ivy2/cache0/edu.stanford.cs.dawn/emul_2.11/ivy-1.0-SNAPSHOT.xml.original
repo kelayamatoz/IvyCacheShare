@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>edu.stanford.cs.dawn</groupId>
+    <artifactId>emul_2.11</artifactId>
+    <packaging>jar</packaging>
+    <description>emul</description>
+    <url>https://spatial.stanford.edu</url>
+    <version>1.0-SNAPSHOT</version>
+    <name>emul</name>
+    <organization>
+        <name>edu.stanford.cs.dawn</name>
+        <url>https://spatial.stanford.edu</url>
+    </organization>
+    <scm>
+        <url>https://github.com/stanford-ppl/spatial</url>
+        <connection>git@github.com:stanford-ppl/spatial.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>mattfel1</id>
+            <name>Matthew Feldman</name>
+            <email>mattfel@stanford.edu</email>
+            <url>https://github.com/mattfel1</url>
+        </developer>
+        <developer>
+            <id>dkoeplin</id>
+            <name>David Koeplinger</name>
+            <email>dkoeplin@stanford.edu</email>
+            <url>https://github.com/dkoeplin</url>
+        </developer>
+        <developer>
+            <id>raghup17</id>
+            <name>Raghu Prabhakar</name>
+            <email>raghup17@stanford.edu</email>
+            <url>https://github.com/raghup17</url>
+        </developer>
+        <developer>
+            <id>yaqiz</id>
+            <name>Yaqi Zhang</name>
+            <email>yaqiz@stanford.edu</email>
+            <url>https://github.comyaqiz/</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.7</version>
+        </dependency>
+    </dependencies>
+</project>
